@@ -1,0 +1,241 @@
+:root {
+  --primary-color: #0247ff;
+  --secondary-color: #fc3e2e;
+  --background-color: #f9f9f9;
+  --darkgray-color: #444444;
+  --lightgray-color: #dddddd;
+  --white-color: #ffffff;
+  --lightblack-color: #333333;
+  --black-color: #202124;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.font600 {
+  font-weight: 600; /* 두껍게 표시 */
+  width: 100px;
+}
+
+.mar_left_10 {
+  margin-left: 10px;
+}
+
+
+/* 인트로 섹션 */
+.intro_tit h1 {
+  position: relative;
+  font-size: 84px;
+  padding: 0 0 40px 0;
+  font-weight: 600;
+  letter-spacing: -2px;
+}
+
+.inner .intro_flex_container {
+  max-width: 1400px;
+  display: flex;
+  flex-wrap: wrap; /* 줄 바꿈을 허용 */
+  justify-content: space-between; /* 아이템들 사이를 균등하게 배치 */
+}
+
+.inner .intro_flex_container .intro_flex_box {
+  font-weight: 600;
+  font-size: 30px !important; /* 중요하게 설정된 font-size */
+  width: calc(25% - 30px); /* 각 박스가 25% 너비 */
+  height: 250px;
+  background-color: #f9f9f9;
+  margin-bottom: 40px; /* 아래쪽 마진 추가로 두 줄 간 간격 */
+  padding: 20px;
+  border-top: 1px solid var(--lightgray-color);
+  border-right: 1px solid var(--lightgray-color);
+  border-bottom: 1px solid var(--lightgray-color);
+  border-left: 5px solid var(--primary-color);
+  border-radius: 10px;
+  border-bottom-left-radius: 5px !important;
+  border-top-left-radius: 5px !important;
+  position: relative;
+}
+
+.inner .intro_flex_container div:nth-child(4n) {
+  margin-right: 0; /* 각 줄의 마지막 박스의 오른쪽 마진 제거 */
+}
+
+.intro_flex_container .intro_flex_box span {
+  display: inline-block;
+  margin-top: 12px; 
+}
+
+.intro_flex_container .intro_flex_box p {
+  display: inline-block;
+  margin-top: 12px; 
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.intro_flex_container .intro_flex_box .app_icon {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+
+.inner .intro_flex_container .intro_flex_box2 {
+  font-weight: 600;
+  font-size: 48px !important; /* 중요하게 설정된 font-size */
+  width: calc(50% - 30px); /* 각 박스가 25% 너비 */
+  height: 506px;
+  background-color: #f9f9f9;
+  margin-bottom: 40px; /* 아래쪽 마진 추가로 두 줄 간 간격 */
+  padding: 40px;
+  border-top: 1px solid var(--lightgray-color);
+  border-right: 1px solid var(--lightgray-color);
+  border-bottom: 1px solid var(--lightgray-color);
+  border-left: 5px solid var(--primary-color);
+  border-radius: 10px;
+  border-bottom-left-radius: 5px !important;
+  border-top-left-radius: 5px !important;
+  position: relative;
+}
+
+.inner .intro_flex_container .intro_flex_box2 .app_icon {
+  position: absolute;
+  right: 40px;
+  bottom: 40px;
+  z-index: 10;
+}
+
+.inner .intro_flex_container div:nth-child(2n) {
+  margin-right: 0; /* 각 줄의 마지막 박스의 오른쪽 마진 제거 */
+}
+
+.intro_flex_container .intro_flex_box2 span {
+  display: inline-block;
+  margin-top: 12px; 
+}
+
+.intro_flex_container .intro_flex_box2 p {
+  display: inline-block;
+  margin-top: 12px; 
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.intro_flex_container .app_wordtag1 {
+  float: left; /* 왼쪽 정렬 */
+}
+
+.intro_flex_container .linkicon {
+  float: right; /* 오른쪽 정렬 */
+}
+
+/* 슬라이드 섹션 */
+.slide_section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ctg_tit {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.ctg_tit h1 {
+  position: relative;
+  font-size: 56px;
+  padding: 0 0 20px 0;
+  font-weight: 600;
+  letter-spacing: -2px;
+}
+
+.ctg_flex_container {
+  padding-top: 40px;
+  max-width: 1400px; /* 고정된 1400px 대신 화면 크기에 비례하도록 변경 */
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto; /* 수평 중앙 정렬 */
+}
+
+.ctg_flex_tit > img, 
+.ctg_flex_tit > span {
+  display: block; /* 이미지와 텍스트를 블록처럼 배치 */
+  margin-top: 20px;
+}
+
+.ctg_flex_txt {
+  display: flex;
+  border-bottom: 1px solid var(--lightgray-color);
+  padding: 20px;
+  width: 530px;
+  height: 75px;
+  align-items: center;
+}
+
+.ctg_flex_tit .ctg_tit_h1 {
+  font-weight: 600;
+  display: block;
+  font-size: 44px;
+  margin-top: 20px;
+}
+
+.ctg_flex_txt p,
+.ctg_flex_txt img,
+.clearfix img,
+.clearfix p,
+.clearfix button {
+  display: inline-block; /* 요소들을 한 줄에 배치 */
+  vertical-align: middle; /* 세로 정렬을 맞춤 */
+}
+
+.first_flex_txt {
+  margin-top: 40px;
+  border-radius: 5px 5px 0 0;
+  border-top: 5px solid var(--lightgray-color);
+}
+
+.ctg_flex_container .ctg_flex_tit .ctg_flex_btn {
+  display: flex;
+  justify-content: flex-end; /* 오른쪽 정렬 */
+  width: 530px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+
+/* 버튼 스타일 추가 */
+.ctg_flex_container .ctg_flex_tit .ctg_flex_btn .button {
+  display: inline-block;
+  width: 180px; /* 버튼 너비 */
+  height: 45px; /* 버튼 높이 */
+  margin-left: 10px;
+  text-align: center;
+  line-height: 45px; /* 세로 중앙 정렬 */
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  background-color: #333333; /* 기본 배경색 */
+}
+
+a.button:hover {
+  background-color: var(--primary-color) !important;
+}
+
+.ctg_flex_container .ctg_flex_img {
+  min-width: 700px;
+  min-height: 525px;
+}
+
+.slider {
+  max-width: 100%; /* 1980px 대신 화면 크기에 맞추도록 변경 */
+  margin: 0 auto; /* 수평 중앙 정렬 */
+  display: flex;
+}
+
+/* NO슬라이드 섹션 */
