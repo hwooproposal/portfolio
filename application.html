@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2024 hwoo Portfolio</title>
+
+    <!-- <link rel="icon" href="./images/favicon.ico" > -->
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/jquery.fullPage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.min.css">
+    <link rel="stylesheet" href="./css/mainstyle.css">
+    <link rel="stylesheet" href="./css/ctgstyle.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollToPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/MotionPathPlugin.min.js"></script>
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/jquery.fullPage.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/custom.js" defer></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header id="header">
+            <div class="inner">
+                <span class="logo"><a href="index.html"><img src="./images/star.png" alt="">MAIN</a></span>  
+                <nav class="title_wrap">
+                    <ul class="title_w_top">
+                        <li><a href="application.html">Application</a></li>
+                        <li><a href="webpage.html">Web Page</a></li>
+                        <li><a href="productpage.html">Product Page</a></li>
+                        <li><a href="renewal.html">Renewal</a></li>
+                        <!-- <li><a href="#p5">Profile</a></li> -->
+                        <!-- <li><a href="#p6">section6</a></li> -->
+                    </ul>
+                </nav>
+                <span class="head_txt">Publisher / UIUX Designer</span>
+            </div>
+        </header>
+        <div class="f_wrap">
+            <div class="sidebar">
+                <nav class="custom_nav">
+                    <ul>
+                        <li><a href="#intro">Introduction</a></li>
+                        <li><a href="#p1">Reward</a></li>
+                        <li><a href="#p2">Trading</a></li>
+                        <li><a href="#p3">Fortune</a></li>
+                        <li><a href="#p4">Functionality</a></li>
+                        <li><a href="#p5">Callback</a></li>
+                        <li><a href="#p6">Chatting</a></li>
+                        <li><a href="#p7">Vpn</a></li>
+                        <li><a href="#p8">Bible</a></li>
+                        <li><a href="#p9">Profile</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <main id="main" class="main">
+                <section class="intro_section mainVisual section" data-anchor="intro">
+                    <div class="inner content">
+                        <div class="intro_tit">
+                            <h1>INTRODUCTION</h1>
+                        </div>
+                            <div class="intro_flex_container">
+                            <div class="intro_flex_box">
+                                <div class="clearfix">
+                                    <img src="./images/app_wordtag1.png" alt="" class="app_wordtag1">
+                                    <img src="./images/app_linkicon.png" alt=""class="linkicon">
+                                </div>   
+                                <span>REWARD</span>
+                                <p>사용자 참여를 유도하는 리워드 앱 
+                                    디자인을 완성했습니다. 직관적이고 
+                                    매력적인 보상 시스템을 구현했습니다.</p>
+                                <div class="app_icon">
+                                    <img src="./images/app_iconimg1.png" alt="" class="app_iconimg">
+                                </div>
+                            </div>    
+                            <div class="intro_flex_box">
+                                <div class="clearfix">
+                                    <img src="./images/app_wordtag2.png" alt="" class="app_wordtag1">
+                                    <img src="./images/app_linkicon.png" alt=""class="linkicon">
+                                </div> 
+                                <span>TRADING</span>
+                                <p>거래 앱의 디자인을 새롭게 선보입니다. 
+                                   안전하고 효율적인 거래 경험을 
+                                   제공하는 직관적인 인터페이스로 구성했습니다.</p>
+                                <div class="app_icon">
+                                    <img src="./images/app_iconimg2.png" alt="" class="app_iconimg">
+                                </div>
+                            </div>
+                            <div class="intro_flex_box">
+                                <div class="clearfix">
+                                    <img src="./images/app_wordtag3.png" alt="" class="app_wordtag1">
+                                    <img src="./images/app_linkicon.png" alt=""class="linkicon">
+                                </div> 
+                                <span>FORTUNE</span>
+                                <p>알고 싶어지는 운세 앱 디자인을 완성했습니다. 
+                                    직관적인 UI와 매력적인 그래픽으로 
+                                    신비로운 운세 경험을 제공합니다.</p>
+                                <div class="app_icon">
+                                    <img src="./images/app_iconimg3.png" alt="" class="app_iconimg">
+                                </div>     
+                            </div>
+                            <div class="intro_flex_box">
+                                <div class="clearfix">
+                                    <img src="./images/app_wordtag4.png" alt="" class="app_wordtag1">
+                                    <img src="./images/app_linkicon.png" alt=""class="linkicon">
+                                </div> 
+                                <span>FUCTIONALITY</span>
+                                <p>사용자의 니즈를 철저히 분석해 
+                                    기능성에 중점을 둔 앱 디자인을 완성했습니다.
+                                    사용이 편리한 경험을 제공합니다.</p>
+                                <div class="app_icon">
+                                    <img src="./images/app_iconimg4.png" alt="" class="app_iconimg">
+                                </div>       
+                            </div>
+                            <div class="intro_flex_box">
+                                <div class="clearfix">
+                                    <img src="./images/app_wordtag5.png" alt="" class="app_wordtag1">
+                                    <img src="./images/app_linkicon.png" alt=""class="linkicon">
+                                </div> 
+                                <span>CALLBACK</span>
+                                <p>콜백 앱의 디자인을 알기쉽게 완성했습니다. 
+                                    콜백시스템을 이해하기 쉽게 디자인해서 
+                                    누구나 금방 사용할 수 있게 했습니다.</p>
+                                <div class="app_icon">
+                                    <img src="./images/app_iconimg5.png" alt="" class="app_iconimg">
+                                </div>     
+                            </div>
+                            <div class="intro_flex_box">
+                                <div class="clearfix">
+                                    <img src="./images/app_wordtag6.png" alt="" class="app_wordtag1">
+                                    <img src="./images/app_linkicon.png" alt=""class="linkicon">
+                                </div> 
+                                <span>CHATTING</span>
+                                <p>원활한 소통을 위한 디자인을 완성했습니다. 
+                                    사용자 경험을 최우선으로 고려하여, 
+                                    직관적이고 세련된 인터페이스를 구현했습니다.</p>
+                                <div class="app_icon">
+                                    <img src="./images/app_iconimg6.png" alt="" class="app_iconimg">
+                                </div>       
+                            </div>
+                            <div class="intro_flex_box">
+                                <div class="clearfix">
+                                    <img src="./images/app_wordtag7.png" alt="" class="app_wordtag1">
+                                    <img src="./images/app_linkicon.png" alt=""class="linkicon">
+                                </div> 
+                                <span>VPN</span>
+                                <p>VPN 앱의 디자인을 안전하고 직관적인 
+                                    사용자 경험을 통해 온라인 프라이버시를 
+                                    한층 강화하는데 중점을 두었습니다.</p> 
+                                <div class="app_icon">
+                                    <img src="./images/app_iconimg7.png" alt="" class="app_iconimg">
+                                </div>       
+                            </div>
+                            <div class="intro_flex_box">
+                                <div class="clearfix">
+                                    <img src="./images/app_wordtag8.png" alt="" class="app_wordtag1">
+                                    <img src="./images/app_linkicon.png" alt=""class="linkicon">
+                                </div> 
+                                <span>BIBLE</span>
+                                <p>사용자 몰입을 극대화하는 
+                                    성경 앱 디자인을 완성했습니다. 
+                                    시각적 요소와 기능을 조화롭게 구현했습니다.</p>
+                                <div class="app_icon">
+                                    <img src="./images/app_iconimg8.png" alt="" class="app_iconimg">
+                                </div>      
+                            </div>    
+                        </div>                          
+                    </div>
+                </section>
+                <section class="slide_section mainVisual section" data-anchor="intro">
+                    <div class="slider slide content">
+                        <div class="ctg_tit">
+                            <h1>REWARD</h1>
+                            <p>사용자 참여를 유도하는 리워드 앱 디자인을 완성했습니다. 직관적이고 매력적인 보상 시스템을 구현했습니다.</p>
+                        </div>
+                        <div class="ctg_flex_container">
+                            <div class="ctg_flex_tit">
+                                <img src="./images/reward_tit_img1.png" alt="리워드 앱 이미지">
+                                <span>귀여운 판다 캐릭터를 이용해 남녀노소 접근성이 쉬운 리워드 앱</span>
+                                <div class="ctg_flex_txt first_flex_txt">
+                                    <p class="font600">디자인 구성</p>
+                                    <p>로고, 메인, 등록이미지, 웹 랜딩페이지</p>
+                                </div>
+                                <div class="ctg_flex_txt">
+                                    <p class="font600">운영체제</p>
+                                    <img src="./images/aos_icon.png" alt="AOS 아이콘">
+                                    <p class="mar_left_10">AOS</p>
+                                </div>
+                                <div class="ctg_flex_txt">
+                                    <p class="font600">색상</p>
+                                    <img src="./images/cash_panda_color.png" alt="캐시 판다 색상">
+                                </div>
+                                <div class="ctg_flex_btn">
+                                    <img src="./images/figma_icon.png" alt="Figma 아이콘">
+                                    <p class="mar_left_10">보러가기</p>
+                                    <img src="./images/figma_nav.png" alt="Figma 내비게이션" class="mar_left_10">
+                                    <div><a href="https://www.figma.com/design/9vqnKeDnXNv5FmBGH0FCJX/app_%EC%BA%90%EC%8B%9C%ED%8C%90%EB%8B%A4_%EC%99%B8%EC%A3%BC?node-id=0-1&node-type=canvas&t=pnNLpQkd8EUBcMPV-0" target="_blank" rel="noopener noreferrer" class="button font600">Application</a></div>
+                                    <div><a href="https://www.figma.com/design/piCAh7Q7VeFjpMLwLKLU5Z/%EC%BA%90%EC%8B%9C%ED%8C%90%EB%8B%A4_%EB%9E%9C%EB%94%A9%ED%8E%98%EC%9D%B4%EC%A7%80?t=pnNLpQkd8EUBcMPV-0" target="_blank" rel="noopener noreferrer" class="button font600">Landing</a></div>
+                                </div>
+                            </div>
+                            <div class="ctg_flex_img">
+                                <img src="./images/reward_img1.png" alt="">  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider slide content">
+                        <div class="ctg_tit">
+                            <h1>REWARD</h1>
+                            <p>사용자 참여를 유도하는 리워드 앱 디자인을 완성했습니다. 직관적이고 매력적인 보상 시스템을 구현했습니다.</p>
+                        </div>
+                        <div class="ctg_flex_container">
+                            <div class="ctg_flex_tit">
+                                <img src="./images/reward_tit_img2.png" alt="리워드 앱 이미지">
+                                <span>시각적으로 직관적인 UI를 구성해 사용성을 높인 리워드 앱</span>
+                                <div class="ctg_flex_txt first_flex_txt">
+                                    <p class="font600">디자인 구성</p>
+                                    <p>로고, 메인, 등록이미지, 웹 랜딩페이지</p>
+                                </div>
+                                <div class="ctg_flex_txt">
+                                    <p class="font600">운영체제</p>
+                                    <img src="./images/aos_icon.png" alt="AOS 아이콘">
+                                    <p class="mar_left_10">AOS</p>
+                                </div>
+                                <div class="ctg_flex_txt">
+                                    <p class="font600">색상</p>
+                                    <img src="./images/cash_cowork_color.png" alt="캐시 판다 색상">
+                                </div>
+                                <div class="ctg_flex_btn">
+                                    <img src="./images/figma_icon.png" alt="Figma 아이콘">
+                                    <p class="mar_left_10">보러가기</p>
+                                    <img src="./images/figma_nav.png" alt="Figma 내비게이션" class="mar_left_10">
+                                    <div><a href="https://www.figma.com/design/SHYnFIXiZprmALqj4O5gJJ/app_%EC%BA%90%EC%8B%9C%EC%BD%94%EC%9B%8C%ED%81%AC_%EC%99%B8%EC%A3%BC?node-id=91-948&node-type=canvas&t=F7SNa6lHXEmDZqWO-0" target="_blank" rel="noopener noreferrer" class="button font600">Application</a></div>
+                                    <div><a href="https://www.figma.com/design/3F6i2cyaWiRqaOBZaenkE0/%EC%BA%90%EC%8B%9C%EC%BD%94%EC%9B%8C%ED%81%AC_%EB%9E%9C%EB%94%A9%ED%8E%98%EC%9D%B4%EC%A7%80v02?node-id=0-1&node-type=canvas&t=F7SNa6lHXEmDZqWO-0" target="_blank" rel="noopener noreferrer" class="button font600">Landing</a></div>
+                                </div>
+                            </div>
+                            <div class="ctg_flex_img">
+                                <img src="./images/reward_img2.png" alt="">  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider slide content">
+                        <div class="ctg_tit">
+                            <h1>REWARD</h1>
+                            <p>사용자 참여를 유도하는 리워드 앱 디자인을 완성했습니다. 직관적이고 매력적인 보상 시스템을 구현했습니다.</p>
+                        </div>
+                        <div class="ctg_flex_container">
+                            <div class="ctg_flex_tit">
+                                <img src="./images/reward_tit_img3.png" alt="리워드 앱 이미지">
+                                <span>트렌디한 디자인과 간접적인 포인트 언급으로 리워드 앱 거부감 감소를 유도하는 앱 </span>
+                                <div class="ctg_flex_txt first_flex_txt">
+                                    <p class="font600">디자인 구성</p>
+                                    <p>로고, 메인, 등록이미지, 웹 랜딩페이지</p>
+                                </div>
+                                <div class="ctg_flex_txt">
+                                    <p class="font600">운영체제</p>
+                                    <img src="./images/aos_icon.png" alt="AOS 아이콘">
+                                    <p class="mar_left_10">AOS</p>
+                                    <img src="./images/ios_icon.png" alt="IOS 아이콘" class="mar_left_10">
+                                    <p class="mar_left_10">IOS</p>
+                                </div>
+                                <div class="ctg_flex_txt">
+                                    <p class="font600">색상</p>
+                                    <img src="./images/only_cash_color.png" alt="캐시 판다 색상">
+                                </div>
+                                <div class="ctg_flex_btn">
+                                    <img src="./images/figma_icon.png" alt="Figma 아이콘">
+                                    <p class="mar_left_10">보러가기</p>
+                                    <img src="./images/figma_nav.png" alt="Figma 내비게이션" class="mar_left_10">
+                                    <div><a href="https://www.figma.com/design/P54TwNA95jBDNWgEKfSgZ8/app_%EC%98%A8%EB%A6%AC%EC%BA%90%EC%8B%9C_%EC%99%B8%EC%A3%BC?t=F7SNa6lHXEmDZqWO-0" target="_blank" rel="noopener noreferrer" class="button font600">Application</a></div>
+                                    <div><a href="https://www.figma.com/design/hce8MEGxgxFoUWXYglvQSo/%EC%98%A8%EB%A6%AC%EC%BA%90%EC%8B%9C_%EB%9E%9C%EB%94%A9%ED%8E%98%EC%9D%B4%EC%A7%80v01?node-id=0-1&node-type=canvas&t=F7SNa6lHXEmDZqWO-0" target="_blank" rel="noopener noreferrer" class="button font600">Landing</a></div>
+                                </div>
+                            </div>
+                            <div class="ctg_flex_img">
+                                <img src="./images/reward_img3.png" alt="">  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider slide content">
+                        <div class="ctg_tit">
+                            <h1>REWARD</h1>
+                            <p>사용자 참여를 유도하는 리워드 앱 디자인을 완성했습니다. 직관적이고 매력적인 보상 시스템을 구현했습니다.</p>
+                        </div>
+                        <div class="ctg_flex_container">
+                            <div class="ctg_flex_tit">
+                                <img src="./images/reward_tit_img4.png" alt="리워드 앱 이미지">
+                                <span>귀여운 고양이 캐릭터와 일본 전통 테마를 활용하여 디자인한 리워드 앱</span>
+                                <div class="ctg_flex_txt first_flex_txt">
+                                    <p class="font600">디자인 구성</p>
+                                    <p>로고, 메인, 등록이미지, 웹 랜딩페이지</p>
+                                </div>
+                                <div class="ctg_flex_txt">
+                                    <p class="font600">운영체제</p>
+                                    <img src="./images/aos_icon.png" alt="AOS 아이콘">
+                                    <p class="mar_left_10">AOS</p>
+                                    <img src="./images/ios_icon.png" alt="IOS 아이콘" class="mar_left_10">
+                                    <p class="mar_left_10">IOS</p>
+                                </div>
+                                <div class="ctg_flex_txt">
+                                    <p class="font600">색상</p>
+                                    <img src="./images/cash_nyang_color.png" alt="">
+                                </div>
+                                <div class="ctg_flex_btn">
+                                    <img src="./images/figma_icon.png" alt="Figma 아이콘">
+                                    <p class="mar_left_10">보러가기</p>
+                                    <img src="./images/figma_nav.png" alt="Figma 내비게이션" class="mar_left_10">
+                                    <div><a href="https://www.figma.com/design/2UYViwmhiXMpgLujZAqCpS/app_%EC%BA%90%EC%8B%9C%EB%83%A5_%EC%99%B8%EC%A3%BC?t=MPosn4cLP6hCMtYL-0" target="_blank" rel="noopener noreferrer" class="button font600">Application</a></div>
+                                    <div><a href="https://www.figma.com/design/zVziqRWyMEFDxM9G0v9gzA/%EC%BA%90%EC%8B%9C%EB%83%A5_%EB%9E%9C%EB%94%A9%ED%8E%98%EC%9D%B4%EC%A7%80_v02?node-id=0-1&node-type=canvas&t=MPosn4cLP6hCMtYL-0" target="_blank" rel="noopener noreferrer" class="button font600">Landing</a></div>
+                                </div>
+                            </div>
+                            <div class="ctg_flex_img">
+                                <img src="./images/reward_img4.png" alt="">  
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="slide_section mainVisual section" data-anchor="intro">
+                    <div class="slider slide content">
+                        <div class="ctg_tit">
+                            <h1>TRADING</h1>
+                            <p>거래 앱의 디자인을 새롭게 선보입니다. 안전하고 효율적인 거래 경험을 제공하는 직관적인 인터페이스로 구성했습니다.</p>
+                        </div>
+                        <div class="ctg_flex_container">
+                            <div class="ctg_flex_tit">
+                                <img src="./images/trading_tit_img1.png" alt="">
+                                <span>기프티콘과 동네맛집 쿠폰 ‘별별 쿠폰’도 이용할 수있는 거래 앱</span>
+                                <div class="ctg_flex_txt first_flex_txt">
+                                    <p class="font600">디자인 구성</p>
+                                    <p>로고, 메인, 등록이미지, 웹 랜딩페이지</p>
+                                </div>
+                                <div class="ctg_flex_txt">
+                                    <p class="font600">운영체제</p>
+                                    <img src="./images/aos_icon.png" alt="">
+                                    <p class="mar_left_10">AOS</p>
+                                    <img src="./images/ios_icon.png" alt="" class="mar_left_10">
+                                    <p class="mar_left_10">IOS</p>
+                                </div>
+                                <div class="ctg_flex_txt">
+                                    <p class="font600">색상</p>
+                                    <img src="./images/korea_gifti_color.png" alt="">
+                                </div>
+                                <div class="ctg_flex_btn">
+                                    <img src="./images/figma_icon.png" alt="Figma 아이콘">
+                                    <p class="mar_left_10">보러가기</p>
+                                    <img src="./images/figma_nav.png" alt="Figma 내비게이션" class="mar_left_10">
+                                    <div><a href="https://www.figma.com/design/TOzA66YQ6Ck5hxAbEteDC3/app_%ED%95%9C%EA%B5%AD%EA%B8%B0%ED%94%84%ED%8B%B0%EA%B1%B0%EB%9E%98%EC%86%8C_%EC%99%B8%EC%A3%BC?node-id=315-19588&node-type=canvas&t=MPosn4cLP6hCMtYL-0" target="_blank" rel="noopener noreferrer" class="button font600">Application</a></div>
+                                    <div><a href="https://www.figma.com/design/VvJTJ3akG0dn5kyLJHDvIy/%ED%95%9C%EA%B5%AD%EA%B8%B0%ED%94%84%ED%8B%B0%EA%B1%B0%EB%9E%98%EC%86%8C_%EB%9E%9C%EB%94%A9%ED%8E%98%EC%9D%B4%EC%A7%80v01?node-id=0-1&node-type=canvas&t=YY6UqDSM5tIMvRG1-0" target="_blank" rel="noopener noreferrer" class="button font600">Landing</a></div>
+                                </div>
+                            </div>
+                            <div class="ctg_flex_img">
+                                <img src="./images/trading_img1.png" alt="">  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider slide content">
+                        <div class="ctg_tit">
+                            <h1>TRADING</h1>
+                            <p>거래 앱의 디자인을 새롭게 선보입니다. 안전하고 효율적인 거래 경험을 제공하는 직관적인 인터페이스로 구성했습니다.</p>
+                        </div>
+                        <div class="ctg_flex_container">
+                            <div class="ctg_flex_tit">
+                                <img src="./images/trading_tit_img2.png" alt="">
+                                <span>중고거래 편리성에 중점을 둔 중고거래 앱</span>
+                                <div class="ctg_flex_txt first_flex_txt">
+                                    <p class="font600">디자인 구성</p>
+                                    <p>로고, 메인, 등록이미지, 웹 랜딩페이지</p>
+                                </div>
+                                <div class="ctg_flex_txt">
+                                    <p class="font600">운영체제</p>
+                                    <img src="./images/aos_icon.png" alt="">
+                                    <p class="mar_left_10">AOS</p>
+                                    <img src="./images/ios_icon.png" alt="" class="mar_left_10">
+                                    <p class="mar_left_10">IOS</p>
+                                </div>
+                                <div class="ctg_flex_txt">
+                                    <p class="font600">색상</p>
+                                    <img src="./images/early_bird_color.png" alt="">
+                                </div>
+                                <div class="ctg_flex_btn">
+                                    <img src="./images/figma_icon.png" alt="Figma 아이콘">
+                                    <p class="mar_left_10">보러가기</p>
+                                    <img src="./images/figma_nav.png" alt="Figma 내비게이션" class="mar_left_10">
+                                    <div><a href="https://www.figma.com/design/6CAppjkKs7vfRmn6uh6Hmv/app_%EC%96%BC%EB%A6%AC%EB%B2%84%EB%93%9C%EC%83%B5_%EC%99%B8%EC%A3%BC?t=YY6UqDSM5tIMvRG1-0" target="_blank" rel="noopener noreferrer" class="button font600">Application</a></div>
+                                    <div><a href="https://www.figma.com/design/Rf2ElknxLlUtVmpaczCIVe/%EC%96%BC%EB%A6%AC%EB%B2%84%EB%93%9C%EC%83%B5_%EB%9E%9C%EB%94%A9%ED%8E%98%EC%9D%B4%EC%A7%80?t=YY6UqDSM5tIMvRG1-0" target="_blank" rel="noopener noreferrer" class="button font600">Landing</a></div>
+                                </div>
+                            </div>
+                            <div class="ctg_flex_img">
+                                <img src="./images/trading_img2.png" alt="">  
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="slide_section mainVisual section" data-anchor="intro">
+                    <div class="slider slide content">
+                        <div class="ctg_tit">
+                            <h1>FORTUNE</h1>
+                            <p>알고 싶어지는 운세 앱 디자인을 완성했습니다. 직관적인 UI와 매력적인 그래픽으로 신비로운 운세 경험을 제공합니다.</p>
+                        </div>
+                        <div class="ctg_flex_container">
+                            <div class="ctg_flex_tit">
+                                <img src="./images/fourtune_tit_img1.png" alt="">
+                                <span>타로를 이용하여 다양한 종류의 운세를 흥미롭게 볼 수 있는 앱</span>
+                                <div class="ctg_flex_txt first_flex_txt">
+                                    <p class="font600">디자인 구성</p>
+                                    <p>로고, 메인, 등록이미지</p>
+                                </div>
+                                <div class="ctg_flex_txt">
+                                    <p class="font600">운영체제</p>
+                                    <img src="./images/aos_icon.png" alt="">
+                                    <p class="mar_left_10">AOS</p>
+                                    <!-- <img src="./images/ios_icon.png" alt="" class="mar_left_10">
+                                    <p class="mar_left_10">IOS</p> -->
+                                </div>
+                                <div class="ctg_flex_txt">
+                                    <p class="font600">색상</p>
+                                    <img src="./images/taro_color.png" alt="">
+                                </div>
+                                <div class="ctg_flex_btn">
+                                    <img src="./images/figma_icon.png" alt="Figma 아이콘">
+                                    <p class="mar_left_10">보러가기</p>
+                                    <img src="./images/figma_nav.png" alt="Figma 내비게이션" class="mar_left_10">
+                                    <div><a href="https://www.figma.com/design/8cZInvdZ9ZO8hgq310L1BB/app_%EC%8B%A0%EB%B9%84%ED%95%9C%ED%83%80%EB%A1%9C(%ED%83%80%EB%A1%9C%EC%86%94%EB%A3%A8%EC%85%98)_%EC%82%AC%EB%82%B4?t=YY6UqDSM5tIMvRG1-0" target="_blank" rel="noopener noreferrer" class="button font600">Application</a></div>
+                                    <!-- <div><a href="https://www.figma.com/design/piCAh7Q7VeFjpMLwLKLU5Z/%EC%BA%90%EC%8B%9C%ED%8C%90%EB%8B%A4_%EB%9E%9C%EB%94%A9%ED%8E%98%EC%9D%B4%EC%A7%80?t=pnNLpQkd8EUBcMPV-0" target="_blank" rel="noopener noreferrer" class="button font600">Landing</a></div> -->
+                                </div>
+                            </div>
+                            <div class="ctg_flex_img">
+                                <img src="./images/fortune_img1.png" alt="">  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider slide content">
+                        <div class="ctg_tit">
+                            <h1>FORTUNE</h1>
+                            <p>알고 싶어지는 운세 앱 디자인을 완성했습니다. 직관적인 UI와 매력적인 그래픽으로 신비로운 운세 경험을 제공합니다.</p>
+                        </div>
+                        <div class="ctg_flex_container">
+                            <div class="ctg_flex_tit">
+                                <img src="./images/fourtune_tit_img2.png" alt="">
+                                <span>직관적인 UI를 구성해 사용성을 높여 쉽게  운세확인이 가능한 앱.</span>
+                                <div class="ctg_flex_txt first_flex_txt">
+                                    <p class="font600">디자인 구성</p>
+                                    <p>로고, 메인, 등록이미지</p>
+                                </div>
+                                <div class="ctg_flex_txt">
+                                    <p class="font600">운영체제</p>
+                                    <img src="./images/aos_icon.png" alt="">
+                                    <p class="mar_left_10">AOS</p>
+                                    <!-- <img src="./images/ios_icon.png" alt="" class="mar_left_10">
+                                    <p class="mar_left_10">IOS</p> -->
+                                </div>
+                                <div class="ctg_flex_txt">
+                                    <p class="font600">색상</p>
+                                    <img src="./images/real_fortune_color.png" alt="">
+                                </div>
+                                <div class="ctg_flex_btn">
+                                    <img src="./images/figma_icon.png" alt="Figma 아이콘">
+                                    <p class="mar_left_10">보러가기</p>
+                                    <img src="./images/figma_nav.png" alt="Figma 내비게이션" class="mar_left_10">
+                                    <div><a href="https://www.figma.com/design/IMRNfrerwkzcZrOBZVMmIx/app_%EB%A6%AC%EC%96%BC%EC%9A%B4%EC%84%B8_%EC%99%B8%EC%A3%BC?t=YY6UqDSM5tIMvRG1-0" target="_blank" rel="noopener noreferrer" class="button font600">Application</a></div>
+                                    <!-- <div><a href="https://www.figma.com/design/piCAh7Q7VeFjpMLwLKLU5Z/%EC%BA%90%EC%8B%9C%ED%8C%90%EB%8B%A4_%EB%9E%9C%EB%94%A9%ED%8E%98%EC%9D%B4%EC%A7%80?t=pnNLpQkd8EUBcMPV-0" target="_blank" rel="noopener noreferrer" class="button font600">Landing</a></div> -->
+                                </div>
+                            </div>
+                            <div class="ctg_flex_img">
+                                <img src="./images/fortune_img2.png" alt="">  
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="no_slide_section mainVisual section" data-anchor="intro">
+                    <div class="inner content">
+                        <div class="ctg_tit">
+                            <h1>FUCTIONALITY</h1>
+                            <p>사용자의 니즈를 철저히 분석해 
+                                기능성에 중점을 둔 앱 디자인을 완성했습니다.
+                                사용이 편리한 경험을 제공합니다.</p>
+                        </div>
+                        <div class="ctg_flex_container">
+                            <div class="ctg_flex_tit">
+                                <img src="./images/fuctionality_tit_img1.png" alt="리워드 앱 이미지">
+                                <span>SNS의 마음에 드는 사진을 [공유, 복사] 할수있는 앱 한국어, 영어, 일어 3개 국어 지원</span>
+                                <div class="ctg_flex_txt first_flex_txt">
+                                    <p class="font600">디자인 구성</p>
+                                    <p>로고, 메인, 등록이미지</p>
+                                </div>
+                                <div class="ctg_flex_txt">
+                                    <p class="font600">운영체제</p>
+                                    <img src="./images/aos_icon.png" alt="AOS 아이콘">
+                                    <p class="mar_left_10">AOS</p>
+                                    <img src="./images/ios_icon.png" alt="IOS 아이콘" class="mar_left_10">
+                                    <p class="mar_left_10">IOS</p>
+                                </div>
+                                <div class="ctg_flex_txt">
+                                    <p class="font600">색상</p>
+                                    <img src="./images/insta_downloader_color.png" alt="캐시 판다 색상">
+                                </div>
+                                <div class="ctg_flex_btn">
+                                    <img src="./images/figma_icon.png" alt="Figma 아이콘">
+                                    <p class="mar_left_10">보러가기</p>
+                                    <img src="./images/figma_nav.png" alt="Figma 내비게이션" class="mar_left_10">
+                                    <div><a href="https://www.figma.com/design/TZFxhTQjyyP5U9B84uz4pW/app_%EC%9D%B8%EC%8A%A4%ED%83%80-%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%8D%94(instget)_%EC%82%AC%EB%82%B4?node-id=29-974&node-type=canvas&t=YY6UqDSM5tIMvRG1-0" target="_blank" rel="noopener noreferrer" class="button font600">Application</a></div>
+                                    <!-- <div><a href="https://www.figma.com/design/piCAh7Q7VeFjpMLwLKLU5Z/%EC%BA%90%EC%8B%9C%ED%8C%90%EB%8B%A4_%EB%9E%9C%EB%94%A9%ED%8E%98%EC%9D%B4%EC%A7%80?t=pnNLpQkd8EUBcMPV-0" target="_blank" rel="noopener noreferrer" class="button font600">Landing</a></div> -->
+                                </div>
+                            </div>
+                            <div class="ctg_flex_img">
+                                <img src="./images/fuctionality_img1.png" alt="">  
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="no_slide_section mainVisual section" data-anchor="intro">
+                    <div class="inner content">
+                        <div class="ctg_tit">
+                            <h1>CALLBACK</h1>
+                            <p>콜백 앱의 디자인을 알기쉽게 완성했습니다. 
+                                콜백시스템을 이해하기 쉽게 디자인해서 누구나 금방 사용할 수 있게 했습니다.</p>
+                        </div>
+                        <div class="ctg_flex_container">
+                            <div class="ctg_flex_tit">
+                                <img src="./images/callback_tit_img1.png" alt="">
+                                <span>콜백시스템을 쉽게 사용하고 이해하기 좋게 UI 구성을 한 앱</span>
+                                <div class="ctg_flex_txt first_flex_txt">
+                                    <p class="font600">디자인 구성</p>
+                                    <p>로고, 메인, 등록이미지, 웹 랜딩페이지</p>
+                                </div>
+                                <div class="ctg_flex_txt">
+                                    <p class="font600">운영체제</p>
+                                    <img src="./images/aos_icon.png" alt="AOS 아이콘">
+                                    <p class="mar_left_10">AOS</p>
+                                    <!-- <img src="./images/ios_icon.png" alt="IOS 아이콘" class="mar_left_10">
+                                    <p class="mar_left_10">IOS</p> -->
+                                </div>
+                                <div class="ctg_flex_txt">
+                                    <p class="font600">색상</p>
+                                    <img src="./images/send_color.png" alt="">
+                                </div>
+                                <div class="ctg_flex_btn">
+                                    <img src="./images/figma_icon.png" alt="Figma 아이콘">
+                                    <p class="mar_left_10">보러가기</p>
+                                    <img src="./images/figma_nav.png" alt="Figma 내비게이션" class="mar_left_10">
+                                    <div><a href="https://www.figma.com/design/4LQHqIaXGhF5O2lX1d0pss/app_%EC%83%8C%EB%93%9C-%EC%BD%9C%EB%B0%B1_%EC%99%B8%EC%A3%BC?node-id=0-1&node-type=canvas&t=YY6UqDSM5tIMvRG1-0" target="_blank" rel="noopener noreferrer" class="button font600">Application</a></div>
+                                    <div><a href="https://www.figma.com/design/bUY9Zx8ZqSO4qtGvqjQqYd/%EC%83%8C%EB%93%9C_%EB%9E%9C%EB%94%A9%ED%8E%98%EC%9D%B4%EC%A7%80-%EC%B6%94%EA%B0%80?t=YY6UqDSM5tIMvRG1-0" target="_blank" rel="noopener noreferrer" class="button font600">Landing</a></div>
+                                </div>
+                            </div>
+                            <div class="ctg_flex_img">
+                                <img src="./images/callback_img1.png" alt="">  
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="slide_section mainVisual section" data-anchor="intro">
+                    <div class="slider slide content">
+                        <div class="ctg_tit">
+                            <h1>CHATTING</h1>
+                            <p>원활한 소통을 위한 디자인을 완성했습니다. 사용자 경험을 최우선으로 고려하여, 직관적이고 세련된 인터페이스를 구현했습니다.</p>
+                        </div>
+                        <div class="ctg_flex_container">
+                            <div class="ctg_flex_tit">
+                                <img src="./images/chatting_tit_img1.png" alt="">
+                                <span>채팅을 좀더 손쉽게 하게 위해 UI를 구성한 앱</span>
+                                <div class="ctg_flex_txt first_flex_txt">
+                                    <p class="font600">디자인 구성</p>
+                                    <p>로고, 메인</p>
+                                </div>
+                                <div class="ctg_flex_txt">
+                                    <p class="font600">운영체제</p>
+                                    <img src="./images/aos_icon.png" alt="">
+                                    <p class="mar_left_10">AOS</p>
+                                    <img src="./images/ios_icon.png" alt="" class="mar_left_10">
+                                    <p class="mar_left_10">IOS</p>
+                                </div>
+                                <div class="ctg_flex_txt">
+                                    <p class="font600">색상</p>
+                                    <img src="./images/thunder_chat_color.png" alt="">
+                                </div>
+                                <div class="ctg_flex_btn">
+                                    <img src="./images/figma_icon.png" alt="Figma 아이콘">
+                                    <p class="mar_left_10">보러가기</p>
+                                    <img src="./images/figma_nav.png" alt="Figma 내비게이션" class="mar_left_10">
+                                    <div><a href="https://www.figma.com/design/NDVU6ImKZEw2KcYzPn3Cif/%EC%99%B8%EC%A3%BC_%EB%B2%88%EA%B0%9C%ED%8C%85?t=YY6UqDSM5tIMvRG1-0" target="_blank" rel="noopener noreferrer" class="button font600">Application</a></div>
+                                    <!-- <div><a href="https://www.figma.com/design/piCAh7Q7VeFjpMLwLKLU5Z/%EC%BA%90%EC%8B%9C%ED%8C%90%EB%8B%A4_%EB%9E%9C%EB%94%A9%ED%8E%98%EC%9D%B4%EC%A7%80?t=pnNLpQkd8EUBcMPV-0" target="_blank" rel="noopener noreferrer" class="button font600">Landing</a></div> -->
+                                </div>
+                            </div>
+                            <div class="ctg_flex_img">
+                                <img src="./images/chatting_img1.png" alt="">  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider slide content">
+                        <div class="ctg_tit">
+                            <h1>CHATTING</h1>
+                            <p>원활한 소통을 위한 디자인을 완성했습니다. 사용자 경험을 최우선으로 고려하여, 직관적이고 세련된 인터페이스를 구현했습니다.</p>
+                        </div>
+                        <div class="ctg_flex_container">
+                            <div class="ctg_flex_tit">
+                                <div class="ctg_tit_h1">
+                                    <h1>RANDOM</h1>
+                                    <h1>CHAT SERIES</h1>
+                                </div>
+                                <span>다양한 랜덤채팅 시리즈 앱</span>
+                                <div class="ctg_flex_txt first_flex_txt">
+                                    <p class="font600">디자인 구성</p>
+                                    <p>로고, 메인</p>
+                                </div>
+                                <div class="ctg_flex_txt">
+                                    <p class="font600">운영체제</p>
+                                    <img src="./images/aos_icon.png" alt="">
+                                    <p class="mar_left_10">AOS</p>
+                                    <!-- <img src="./images/ios_icon.png" alt="" class="mar_left_10">
+                                    <p class="mar_left_10">IOS</p> -->
+                                </div>
+                                <div class="ctg_flex_txt">
+                                    <p class="font600">색상</p>
+                                    <img src="./images/random_chat_color.png" alt="">
+                                </div>
+                                <div class="ctg_flex_btn">
+                                    <img src="./images/figma_icon.png" alt="Figma 아이콘">
+                                    <p class="mar_left_10">보러가기</p>
+                                    <img src="./images/figma_nav.png" alt="Figma 내비게이션" class="mar_left_10">
+                                    <div><a href="https://www.figma.com/design/YIVLOS8MDOlHXuTdwbEPtY/app_%EB%9E%9C%EB%8D%A4%EC%B1%84%ED%8C%85-%EC%8B%9C%EB%A6%AC%EC%A6%88?node-id=0-1&node-type=canvas&t=YY6UqDSM5tIMvRG1-0" target="_blank" rel="noopener noreferrer" class="button font600">Application</a></div>
+                                    <!-- <div><a href="https://www.figma.com/design/piCAh7Q7VeFjpMLwLKLU5Z/%EC%BA%90%EC%8B%9C%ED%8C%90%EB%8B%A4_%EB%9E%9C%EB%94%A9%ED%8E%98%EC%9D%B4%EC%A7%80?t=pnNLpQkd8EUBcMPV-0" target="_blank" rel="noopener noreferrer" class="button font600">Landing</a></div> -->
+                                </div>
+                            </div>
+                            <div class="ctg_flex_img">
+                                <img src="./images/chatting_img2.png" alt="">  
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="slide_section mainVisual section" data-anchor="intro">
+                    <div class="slider slide content">
+                        <div class="ctg_tit">
+                            <h1>VPN</h1>
+                            <p>VPN 앱의 디자인을 안전하고 직관적인 
+                                사용자 경험을 통해 온라인 프라이버시를 
+                                한층 강화하는데 중점을 두었습니다.</p>
+                        </div>
+                        <div class="ctg_flex_container">
+                            <div class="ctg_flex_tit">
+                                <img src="./images/vpn_tit_img1.png" alt="">
+                                <span>가속화 기능이 포함된 VPN 중국어, 한국어, 영어 지원</span>
+                                <div class="ctg_flex_txt first_flex_txt">
+                                    <p class="font600">디자인 구성</p>
+                                    <p>로고, 메인</p>
+                                </div>
+                                <div class="ctg_flex_txt">
+                                    <p class="font600">운영체제</p>
+                                    <img src="./images/aos_icon.png" alt="">
+                                    <p class="mar_left_10">AOS</p>
+                                    <img src="./images/ios_icon.png" alt="" class="mar_left_10">
+                                    <p class="mar_left_10">IOS</p>
+                                </div>
+                                <div class="ctg_flex_txt">
+                                    <p class="font600">색상</p>
+                                    <img src="./images/vpn1_color.png" alt="">
+                                </div>
+                                <div class="ctg_flex_btn">
+                                    <img src="./images/figma_icon.png" alt="Figma 아이콘">
+                                    <p class="mar_left_10">보러가기</p>
+                                    <img src="./images/figma_nav.png" alt="Figma 내비게이션" class="mar_left_10">
+                                    <div><a href="https://www.figma.com/design/hlpNKltL91xUk0YcbpRYYt/app_%EA%B0%80%EC%86%8D%EA%B8%B0(accelerator-pro)_%EC%82%AC%EB%82%B4?node-id=26-2&node-type=canvas&t=YY6UqDSM5tIMvRG1-0" target="_blank" rel="noopener noreferrer" class="button font600">Application</a></div>
+                                    <!-- <div><a href="https://www.figma.com/design/piCAh7Q7VeFjpMLwLKLU5Z/%EC%BA%90%EC%8B%9C%ED%8C%90%EB%8B%A4_%EB%9E%9C%EB%94%A9%ED%8E%98%EC%9D%B4%EC%A7%80?t=pnNLpQkd8EUBcMPV-0" target="_blank" rel="noopener noreferrer" class="button font600">Landing</a></div> -->
+                                </div>
+                            </div>
+                            <div class="ctg_flex_img">
+                                <img src="./images/vpn_img1.png" alt="">  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider slide content">
+                        <div class="ctg_tit">
+                            <h1>VPN</h1>
+                            <p>VPN 앱의 디자인을 안전하고 직관적인 
+                                사용자 경험을 통해 온라인 프라이버시를 
+                                한층 강화하는데 중점을 두었습니다.</p>
+                        </div>
+                        <div class="ctg_flex_container">
+                            <div class="ctg_flex_tit">
+                                <img src="./images/vpn_tit_img2.png" alt="">
+                                <span>한국의 국기를 이용하여 VPN 버튼을 디자인한 아이디어가 돋보이는 앱</span>
+                                <div class="ctg_flex_txt first_flex_txt">
+                                    <p class="font600">디자인 구성</p>
+                                    <p>로고, 메인</p>
+                                </div>
+                                <div class="ctg_flex_txt">
+                                    <p class="font600">운영체제</p>
+                                    <img src="./images/aos_icon.png" alt="">
+                                    <p class="mar_left_10">AOS</p>
+                                    <img src="./images/ios_icon.png" alt="" class="mar_left_10">
+                                    <p class="mar_left_10">IOS</p>
+                                </div>
+                                <div class="ctg_flex_txt">
+                                    <p class="font600">색상</p>
+                                    <img src="./images/vpn2_color.png" alt="">
+                                </div>
+                                <div class="ctg_flex_btn">
+                                    <img src="./images/figma_icon.png" alt="Figma 아이콘">
+                                    <p class="mar_left_10">보러가기</p>
+                                    <img src="./images/figma_nav.png" alt="Figma 내비게이션" class="mar_left_10">
+                                    <div><a href="https://www.figma.com/design/DGdyYLPQ5nSo4S4pnqW0s3/app_KOREA-IP?t=YY6UqDSM5tIMvRG1-0" target="_blank" rel="noopener noreferrer" class="button font600">Application</a></div>
+                                    <!-- <div><a href="https://www.figma.com/design/piCAh7Q7VeFjpMLwLKLU5Z/%EC%BA%90%EC%8B%9C%ED%8C%90%EB%8B%A4_%EB%9E%9C%EB%94%A9%ED%8E%98%EC%9D%B4%EC%A7%80?t=pnNLpQkd8EUBcMPV-0" target="_blank" rel="noopener noreferrer" class="button font600">Landing</a></div> -->
+                                </div>
+                            </div>
+                            <div class="ctg_flex_img">
+                                <img src="./images/vpn_img2.png" alt="">  
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="no_slide_section mainVisual section" data-anchor="intro">
+                    <div class="inner content">
+                        <div class="ctg_tit">
+                            <h1>BIBLE</h1>
+                            <p>사용자 몰입을 극대화하는 성경 앱 디자인을 완성했습니다. 시각적 요소와 기능을 조화롭게 구현했습니다.</p>
+                        </div>
+                        <div class="ctg_flex_container">
+                            <div class="ctg_flex_tit">
+                                <img src="./images/bible_tit_img1.png" alt="">
+                                <span>성경 컨텐츠를 다양하게 즐길 수 있는 앱</span>
+                                <div class="ctg_flex_txt first_flex_txt">
+                                    <p class="font600">디자인 구성</p>
+                                    <p>로고, 메인</p>
+                                </div>
+                                <div class="ctg_flex_txt">
+                                    <p class="font600">운영체제</p>
+                                    <img src="./images/aos_icon.png" alt="AOS 아이콘">
+                                    <p class="mar_left_10">AOS</p>
+                                    <img src="./images/ios_icon.png" alt="IOS 아이콘" class="mar_left_10">
+                                    <p class="mar_left_10">IOS</p>
+                                </div>
+                                <div class="ctg_flex_txt">
+                                    <p class="font600">색상</p>
+                                    <img src="./images/bible_color.png" alt="">
+                                </div>
+                                <div class="ctg_flex_btn">
+                                    <img src="./images/figma_icon.png" alt="Figma 아이콘">
+                                    <p class="mar_left_10">보러가기</p>
+                                    <img src="./images/figma_nav.png" alt="Figma 내비게이션" class="mar_left_10">
+                                    <div><a href="https://www.figma.com/design/yIqj7UUavet1mevo2Jy5wm/app_The%EC%84%B1%EA%B2%BD_%EC%99%B8%EC%A3%BC?t=YY6UqDSM5tIMvRG1-0" target="_blank" rel="noopener noreferrer" class="button font600">Application</a></div>
+                                    <!-- <div><a href="https://www.figma.com/design/piCAh7Q7VeFjpMLwLKLU5Z/%EC%BA%90%EC%8B%9C%ED%8C%90%EB%8B%A4_%EB%9E%9C%EB%94%A9%ED%8E%98%EC%9D%B4%EC%A7%80?t=pnNLpQkd8EUBcMPV-0" target="_blank" rel="noopener noreferrer" class="button font600">Landing</a></div> -->
+                                </div>
+                            </div>
+                            <div class="ctg_flex_img">
+                                <img src="./images/bible_img1.png" alt="">  
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="portfolio section profile fp-auto-height-responsive" data-anchor="intro">
+                    <h2 class="blind">portfolio</h2>
+                    <div class="inner">
+                        <div class="profile02">
+                            <div class="prf02_top row">
+                                <div class="prf02_left">
+                                    <div class="text">
+                                        <strong>HISTORY</strong>
+                                        <ul>
+                                            <li><span>앱솔루션 UI/UX 디자이너</span></li>
+                                            <li><span>2023.03 ~ 2024.04</span></li>
+                                            <li><span>반응형웹디자인 & 웹퍼블리셔 취업과정</span></li>
+                                            <li><span>2022.04 ~ 2022.09</span></li>
+                                            <li><span>신라대학교 시각디자인 학점 3.07/4.5</span></li>
+                                            <li><span>2015.03 ~ 2019.08</span></li>
+                                            <li><span>충렬고등학교 인문계열</span></li>
+                                            <li><span>2012.03 ~ 2015.02</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="prf02_right">
+                                    <div class="text">
+                                        <strong>EXTERNAL ACTIVITIES</strong>
+                                        <ul>
+                                            <li><span>원 인터네셔널 회사 CI 디자인 프로젝트 진행</span></li>
+                                            <li><span>2019.03 ~ 2019.06</span></li>
+                                            <li><span>한국패키지디자인협회 대한민국패키지디자인대전</span></li>
+                                            <li><span>공모전 특선 2017.11</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="prf02_bottom">
+                                <div class="text">
+                                    <strong>Skill</strong>
+                                    <div class="skill">
+                                        <div class="skill_itm">
+                                            <img src="./images/skill_figma.png" alt="">
+                                            <span class="itm_name">Figma</span>
+                                        </div>
+                                        <div class="skill_itm">
+                                            <img src="./images/skill_ai.png" alt="">
+                                            <span class="itm_name">Adobe Illustrator</span>
+                                        </div>
+                                        <div class="skill_itm">
+                                            <img src="./images/skill_ps.png" alt="">
+                                            <span class="itm_name">Adobe Photoshop</span>
+                                        </div>
+                                        <div class="skill_itm">
+                                            <img src="./images/skill_vs.png"f alt="">
+                                            <span class="itm_name">Visual Studio</span>
+                                        </div>
+                                        <div class="skill_itm">
+                                            <img src="./images/skill_html.png" alt="">
+                                            <span class="itm_name">HTML 5</span>
+                                        </div>
+                                        <div class="skill_itm">
+                                            <img src="./images/skill_css.png" alt="">
+                                            <span class="itm_name">CSS 3</span>
+                                        </div>
+                                        <div class="skill_itm">
+                                            <img src="./images/skill_jquery.png" alt="">
+                                            <span class="itm_name">jQuery</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="profile_img"><img src="./images/profile_img.png" alt=""></div>
+                        </div>
+                        <div class="profile01">
+                            <div class="prof-wrap">
+                                <div class="prof row">
+                                    <div class="photo">
+                                        <figure class="portrait">
+                                            <img src="./images/portrait_1.png" alt="">
+                                        </figure>
+                                    </div>
+                                    <div class="name">
+                                        <strong>정현우<span>Hyun-woo Jung</span></strong>
+                                        <ul class="info">
+                                            <li>+82 010 4321 1878</li>
+                                            <li>hwooproposal@gmail.com</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </section>
+            </main>
+        </div>
+        <footer id="footer">
+            <div class="inner">
+                <div class="title_wrap">
+                    <span>contact / +82 010 4321 1878</span>
+                    <span>2024 hwoo publishing / UIUX Designing</span>
+                    <span>e-mail / hwooproposal@gmail.com</span>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
