@@ -18,6 +18,10 @@ body {
   background: url(../images/patten02.png);
 }
 
+.mar_top_30 {
+  margin-top: 30px;
+}
+
 .inner {
   max-width: 140rem;
   width: 100%;
@@ -955,6 +959,21 @@ body {
   text-align: center;
 }
 
+.profile .info li div { 
+  display: inline-block;
+  width: 180px; /* 버튼 너비 */
+  height: 45px; /* 버튼 높이 */
+  margin-left: 10px;
+  text-align: center;
+  line-height: 45px; /* 세로 중앙 정렬 */
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  background-color: #333333; /* 기본 배경색 */
+  margin-top: 10px;
+}
 .profile figure {
   width: 100%;
   font-size: 0;
